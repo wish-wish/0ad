@@ -2,11 +2,12 @@
 local vs_format_version = function()
 	local t =
 	{
-		vs2005 = '9.00',
-	    vs2008 = '10.00',
-	    vs2010 = '11.00',
-		vs2012 = '12.00',
-		vs2013 = '13.00'
+		vs2005 = '8.00',
+	    vs2008 = '9.00',
+	    vs2010 = '10.00',
+		vs2012 = '11.00',
+		vs2013 = '12.00',
+		vs2015 = '14.00'
 	}
 	return t[_ACTION]
 end
@@ -18,7 +19,8 @@ local vs_version = function()
 	    vs2008 = '2008',
 	    vs2010 = '2010',
 		vs2012 = '2012',
-		vs2013 = '2013'
+		vs2013 = '2013',
+		vs2015 = '2015'
 	}
 	return t[_ACTION]
 end
