@@ -203,7 +203,7 @@ function project_set_build_flags()
 		-- use native wchar_t type (not typedef to unsigned short)
 		flags { "NativeWChar" }
 		--flags { "Unicode" }
-		--defines { "_UNICODE","UNICODE" }
+		--defines { "_UNICODE","UNICODE","_UNICODE_" }
 	else	-- *nix
 
 		-- TODO, FIXME: This check is incorrect because it means that some additional flags will be added inside the "else" branch if the
